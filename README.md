@@ -23,6 +23,9 @@ Using the definition from the slides, Big-O is defined as T (n) ∈ O(f (n)) if 
 for all n ≥ n0
 
 Since o(g(n)) must be true for all positive constants and since O(g(n)) only needs a single constant c. If Little-o is true, then Big-O, which must only check one value c against the same function, must be true as well.
+
+The other difference is that little-o f(n) < c g(n) where Big-o f(n) ≤ g(n). This means that little o MUST grow slower than cg(n), big o can grow slower or at the same rate as cg(n). Therefore, the smallest Big-O growth rate is smaller than the smallest little-o growth rate.
+
 ## Sources and Plagarism Statement
 Used only the in class slides for the defintion of Big-O, nothing else.
 
